@@ -1,5 +1,5 @@
 PKG nginx
-CP overlay/nginx.conf /usr/local/etc/nginx/
+CP usr /
 SYSRC nginx_enable=YES
 CMD nginx -t
 SERVICE nginx restart
