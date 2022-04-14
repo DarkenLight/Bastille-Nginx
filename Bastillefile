@@ -1,5 +1,4 @@
 PKG nginx
 CP usr /
 SYSRC nginx_enable=YES
-CMD nginx -t
-SERVICE nginx restart
+SERVICE nginx start
